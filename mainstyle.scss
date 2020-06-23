@@ -253,7 +253,7 @@ flip card
         color: $color-3;
         .bottom-circle {
             @include circle;
-            color: $color-3;
+            color: black;
             h5 {
                 margin-top: 10px;
                 font-size: 1rem;
@@ -271,7 +271,7 @@ flip card
         color: $primary-color;
         .bottom-circle {
             @include circle;
-            color: $color-3;
+            color: black;
             h5 {
                 font-size: 1rem;
             }
