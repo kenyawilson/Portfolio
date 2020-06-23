@@ -311,7 +311,7 @@ flip card
   height: 28vh;
   border: 7px solid #ffc145;
   border-radius: 80%;
-  color: #c46d9e;
+  color: black;
 }
 
 .bottom-grid .top-circle-border .bottom-circle h5 {
@@ -337,7 +337,7 @@ flip card
   height: 28vh;
   border: 7px solid #ffc145;
   border-radius: 80%;
-  color: #c46d9e;
+  color: black;
 }
 
 .bottom-grid .bottom-circle-border .bottom-circle h5 {
