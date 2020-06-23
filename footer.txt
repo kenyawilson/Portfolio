@@ -1,0 +1,1 @@
+document.write('<footer><div class="footer-grid "><p>&copy; Kenya Wilson 2020</p><div class="footer-socials "><a><i class="fab fa-twitter-square "></i></a><a><i class="fab fa-linkedin "></i></a><a><i class="fab fa-facebook "></i></a></div></div></footer>')

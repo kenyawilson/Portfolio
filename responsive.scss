@@ -1,0 +1,153 @@
+                            $primary-color: #f5f5dc;
+                            $secondary-color: #ffc145;
+                            $color-3: #c46d9e;
+                            $color-4: #7ec85d;
+                            $some-space: 70vw;
+                            $small-text: 1.2rem;
+                            $medium-text: 2rem;
+                            @media (min-width: 500px) {
+                                .small-hero {
+                                    #hero-image {
+                                        position: absolute;
+                                        top: 15vh;
+                                        left: 10vw;
+                                        width: 100%;
+                                        height: auto;
+                                    }
+                                }
+                                .vert-line-up {
+                                    h2 {
+                                        font-size: $medium-text;
+                                        font-family: 'Ultra', sans-serif;
+                                        text-align: center;
+                                        z-index: -2;
+                                    }
+                                }
+                                .middle-grid {
+                                    max-height: 60vh;
+                                    h1 {
+                                        height: 7vh;
+                                    }
+                                    p {
+                                        font-size: $medium-text;
+                                    }
+                                }
+                                .center {
+                                    height: 10vh;
+                                    #homepage-link {
+                                        font-size: $medium-text;
+                                    }
+                                    i {
+                                        font-size: $medium-text;
+                                    }
+                                }
+                            }
+                            
+                            @media (min-width: 730px) {
+                                .small-hero {
+                                    #hero-image {
+                                        position: absolute;
+                                        top: 12vh;
+                                        left: 20vw;
+                                        width: 70%;
+                                        max-height: 50vh;
+                                    }
+                                }
+                                #project-card {
+                                    border: none;
+                                    width: 100%;
+                                    height: 55vh;
+                                    border-radius: 10%;
+                                    .card-body {
+                                        height: 50vh;
+                                        h3 {
+                                            font-size: 2.3rem;
+                                        }
+                                        p {
+                                            font-size: $medium-text;
+                                        }
+                                    }
+                                }
+                            }
+                            /* Larger Tablets */
+                            
+                            @media (min-width: 900px) {
+                                .top-grid {
+                                    height: 70vh;
+                                }
+                                .small-hero {
+                                    #hero-image {
+                                        top: 25vh;
+                                        left: 20vw;
+                                        width: 70%;
+                                        height: auto;
+                                    }
+                                }
+                                .vert-line-up {
+                                    p {
+                                        display: block;
+                                        max-width: 25vw;
+                                    }
+                                }
+                                .middle-grid {
+                                    p {
+                                        font-size: 1.5rem;
+                                    }
+                                }
+                                .center {
+                                    #homepage-link {
+                                        font-size: 1.2rem;
+                                    }
+                                }
+                                .bottom-grid {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-content: center;
+                                    align-items: center;
+                                    .top-circle-border {
+                                        height: 50vh;
+                                        width: 50%;
+                                        padding-right: 200px;
+                                        button {
+                                            max-width: 45vw;
+                                            height: 60vh;
+                                            position: absolute;
+                                            left: -18vw;
+                                        }
+                                    }
+                                    .bottom-circle-border {
+                                        height: 50vh;
+                                        width: 50%;
+                                        padding-right: 200px;
+                                        button {
+                                            max-width: 45vw;
+                                            height: 60vh;
+                                            position: absolute;
+                                            left: 33vw;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            @media (min-width: 1150px) {
+                                .small-hero {
+                                    #hero-image {
+                                        position: absolute;
+                                        top: 37vh;
+                                        left: 20vw;
+                                        width: 60%;
+                                        height: auto;
+                                    }
+                                }
+                                .vert-line-up {
+                                    h2 {
+                                        font-size: 1.5rem;
+                                        color: $color-3;
+                                    }
+                                    p {
+                                        max-width: 25vw;
+                                        font-size: 1.2rem;
+                                        z-index: 1;
+                                    }
+                                }
+                            }

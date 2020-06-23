@@ -1,0 +1,137 @@
+@media (min-width: 500px) {
+  .small-hero #hero-image {
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    width: 100%;
+    height: auto;
+  }
+  .vert-line-up h2 {
+    font-size: 2rem;
+    font-family: 'Ultra', sans-serif;
+    text-align: center;
+    z-index: -2;
+  }
+  .middle-grid {
+    max-height: 60vh;
+  }
+  .middle-grid h1 {
+    height: 7vh;
+  }
+  .middle-grid p {
+    font-size: 2rem;
+  }
+  .center {
+    height: 10vh;
+  }
+  .center #homepage-link {
+    font-size: 2rem;
+  }
+  .center i {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 730px) {
+  .small-hero #hero-image {
+    position: absolute;
+    top: 12vh;
+    left: 20vw;
+    width: 70%;
+    max-height: 50vh;
+  }
+  #project-card {
+    border: none;
+    width: 100%;
+    height: 55vh;
+    border-radius: 10%;
+  }
+  #project-card .card-body {
+    height: 50vh;
+  }
+  #project-card .card-body h3 {
+    font-size: 2.3rem;
+  }
+  #project-card .card-body p {
+    font-size: 2rem;
+  }
+}
+
+/* Larger Tablets */
+@media (min-width: 900px) {
+  .top-grid {
+    height: 70vh;
+  }
+  .small-hero #hero-image {
+    top: 25vh;
+    left: 20vw;
+    width: 70%;
+    height: auto;
+  }
+  .vert-line-up p {
+    display: block;
+    max-width: 25vw;
+  }
+  .middle-grid p {
+    font-size: 1.5rem;
+  }
+  .center #homepage-link {
+    font-size: 1.2rem;
+  }
+  .bottom-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bottom-grid .top-circle-border {
+    height: 50vh;
+    width: 50%;
+    padding-right: 200px;
+  }
+  .bottom-grid .top-circle-border button {
+    max-width: 45vw;
+    height: 60vh;
+    position: absolute;
+    left: -18vw;
+  }
+  .bottom-grid .bottom-circle-border {
+    height: 50vh;
+    width: 50%;
+    padding-right: 200px;
+  }
+  .bottom-grid .bottom-circle-border button {
+    max-width: 45vw;
+    height: 60vh;
+    position: absolute;
+    left: 33vw;
+  }
+}
+
+@media (min-width: 1150px) {
+  .small-hero #hero-image {
+    position: absolute;
+    top: 37vh;
+    left: 20vw;
+    width: 60%;
+    height: auto;
+  }
+  .vert-line-up h2 {
+    font-size: 1.5rem;
+    color: #c46d9e;
+  }
+  .vert-line-up p {
+    max-width: 25vw;
+    font-size: 1.2rem;
+    z-index: 1;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
